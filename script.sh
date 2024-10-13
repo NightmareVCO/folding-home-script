@@ -10,7 +10,7 @@ sudo dpkg -i fah-client_8.3.18_amd64.deb
 cd folding-home-script
 RANDOM_NUMBER=$(shuf -i 100-999 -n 1)
 sed -i "s/<machine-name v=\"droplet .*\" \/>/<machine-name v=\"droplet $RANDOM_NUMBER\" \/>/" config.xml
-sudo cp my-config /etc/fah-client/config.xml
+sudo cp my-config.xml /etc/fah-client/config.xml
 sudo systemctl start fah-client
 
 
