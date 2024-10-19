@@ -2,7 +2,8 @@
 
 cd ~
 sudo apt update
-sudo apt install wget curl -y
+sudo apt install wget git -y
+git clone https://github.com/NightmareVCO/folding-home-script.git
 curl -O https://download.foldingathome.org/releases/public/fah-client/debian-10-64bit/release/fah-client_8.3.18_amd64.deb
 sudo dpkg -i fah-client_8.3.18_amd64.deb
 
