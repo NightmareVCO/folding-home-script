@@ -6,7 +6,7 @@ chmod +x script.sh
 ./script.sh
 ```
 
-### ard64
+### ar64m
 
 ```sh
 curl -O https://raw.githubusercontent.com/NightmareVCO/folding-home-script/refs/heads/main/script-arm64.sh
