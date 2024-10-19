@@ -3,7 +3,7 @@
 cd ~
 sudo apt update
 sudo apt upgrade
-sudo apt install wget git libc6 -y
+sudo apt install build-essential wget git libc6 -y
 git clone https://github.com/NightmareVCO/folding-home-script.git
 curl -O https://download.foldingathome.org/releases/public/fah-client/debian-stable-arm64/release/fah-client_8.3.18_arm64.deb
 sudo dpkg -i fah-client_8.3.18_arm64.deb
